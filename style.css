@@ -1,0 +1,50 @@
+/* Define o estilo geral da página (fundo, fonte, alinhamento) */
+body {
+  background-color: #f0f0f0; /* Cor de fundo clara */
+  font-family: Arial, sans-serif; /* Tipo de fonte */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa 100% da altura da tela */
+}
+
+/* Estilo do container principal */
+.container {
+  background-color: white; /* Fundo branco para contraste */
+  padding: 40px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do título principal */
+h1 {
+  color: #333; /* Cor escura para melhor leitura */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilo do parágrafo de descrição */
+p {
+  color: #555; /* Cinza intermediário */
+  font-size: 18px; /* Tamanho da fonte */
+  margin-bottom: 30px; /* Espaço abaixo do parágrafo */
+}
+
+/* Estilo do botão */
+.botao {
+  background-color: #4CAF50; /* Verde padrão */
+  color: white; /* Texto branco */
+  border: none; /* Remove borda padrão */
+  padding: 12px 24px; /* Espaçamento interno do botão */
+  font-size: 16px; /* Tamanho do texto */
+  border-radius: 5px; /* Bordas levemente arredondadas */
+  cursor: pointer; /* Cursor em forma de mãozinha */
+  transition: background-color 0.3s ease; /* Animação suave na cor */
+}
+
+/* Efeito ao passar o mouse no botão */
+.botao:hover {
+  background-color: #45a049; /* Tom de verde mais escuro */
+}
