@@ -4,6 +4,7 @@
     font-style: normal;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 body {
