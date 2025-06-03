@@ -1,6 +1,6 @@
 /* Define o estilo geral da página (fundo, fonte, alinhamento) */
 body {
-  background-color: #f0f0f0; /* Cor de fundo clara */
+  background-color: #e4b34a; /* Cor de fundo clara */
   font-family: Arial, sans-serif; /* Tipo de fonte */
   margin: 0; /* Remove as margens padrão */
   padding: 0; /* Remove o preenchimento padrão */
@@ -12,7 +12,7 @@ body {
 
 /* Estilo do container principal */
 .container {
-  background-color: white; /* Fundo branco para contraste */
+  background-color: rgb(181, 124, 214); /* Fundo branco para contraste */
   padding: 40px; /* Espaçamento interno */
   border-radius: 10px; /* Bordas arredondadas */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -34,7 +34,7 @@ p {
 
 /* Estilo do botão */
 .botao {
-  background-color: #4CAF50; /* Verde padrão */
+  background-color: #e4c749; /* Verde padrão */
   color: white; /* Texto branco */
   border: none; /* Remove borda padrão */
   padding: 12px 24px; /* Espaçamento interno do botão */
