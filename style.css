@@ -4,10 +4,10 @@
     display: flex;
     flex: content;
     justify-content: space-around;
-    padding: 2rem;
     position: fixed;
     background-color: white;
-   
+    top: 0;
+    width: 100%;
 }
 
 .APRESENTAÇÃODOAGRINHO {
