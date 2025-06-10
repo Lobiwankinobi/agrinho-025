@@ -5,12 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items:center ;
-
 }
 
-.body {
-    background-color: beige;
-}
 
 .resto {
     background-color: beige;
