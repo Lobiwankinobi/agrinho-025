@@ -4,6 +4,7 @@
     display: flex;
     flex: content;
     justify-content: space-between;
+    margin: auto;
    
 }
 
