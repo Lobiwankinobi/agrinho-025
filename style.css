@@ -4,7 +4,7 @@
     display: flex;
     flex: content;
     justify-content: space-between;
-    margin: auto;
+    padding: 2rem;
    
 }
 
