@@ -38,6 +38,7 @@ body {
 
 .botao:hover {
   background-color: #ccc;
+  cursor:cell;
 }
 
 .menu-fixo a {
@@ -88,3 +89,4 @@ body {
 #campo-cidade {
   background-color: antiquewhite;
 }
+
