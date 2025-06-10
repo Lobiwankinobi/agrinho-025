@@ -44,3 +44,13 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.CARDFRENTE {
+  background-color: #bbb;
+  color: black;
+}
+
+.CARDATRAS {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
