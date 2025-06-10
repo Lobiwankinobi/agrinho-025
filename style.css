@@ -21,6 +21,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding-top: 5rem; /* Espaço para o cabeçalho fixo (apresentação do agrinho, campo e cidade, etc) */
 }
