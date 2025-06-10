@@ -38,7 +38,7 @@ body {
 
 .botao:hover {
   background-color: #ccc;
-  cursor:cell;
+  cursor: grab;
 }
 
 .menu-fixo a {
