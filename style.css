@@ -3,7 +3,7 @@
     font-weight: bolder;
     display: flex;
     flex: content;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
    
 }
