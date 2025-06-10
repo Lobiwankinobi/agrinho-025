@@ -9,7 +9,6 @@
     top: 0;
     width: 100%;
     max-width: 1200px;      /* Limite de largura */
-    margin: 0 auto;         /* Centraliza o cabeçalho */
     background-color: white;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
