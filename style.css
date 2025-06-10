@@ -24,18 +24,19 @@ body {
   z-index: 1000;
 }
 
-.menu-fixo button {
+.botao {
   margin: 0 0.5rem;
   padding: 0.5rem 1rem;
   font-weight: bold;
-  border: none;
   background-color: #eee;
-  cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
   transition: background-color 0.3s;
 }
 
-.menu-fixo button:hover {
+.botao:hover {
   background-color: #ccc;
 }
 
