@@ -1,29 +1,79 @@
-.CABEÇALHO {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-    padding: 2rem;
-    position: fixed;
-    top: 0;
-    width: 100vh;
-    background-color: white;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.CABEÇALHO .ultimo-botao {
-    margin-left: auto;
-}
-
-.APRESENTAÇÃODOAGRINHO {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    margin-top: 120px; /* compensação para o cabeçalho fixo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: ghostwhite;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: ghostwhite;
+  padding-top: 80px; /* Espaço para o menu fixo */
+}
+
+.menu-fixo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.menu-fixo button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu-fixo button:hover {
+  background-color: #ccc;
+}
+
+.menu-fixo a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-esquerda,
+.menu-direita {
+  display: flex;
+  align-items: center;
+}
+
+.secao {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo {
+  display: flex;
+  max-width: 1200px;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.texto {
+  flex: 1 1 60%;
+}
+
+.imagem {
+  flex: 1 1 35%;
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
 }
