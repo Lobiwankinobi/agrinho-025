@@ -17,9 +17,5 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem; /* Espaço para o cabeçalho fixo (apresentação do agrinho, campo e cidade, etc) */
+    
 }
