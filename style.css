@@ -36,3 +36,11 @@ body {
 .CARD:hover .CARDINTERNO {
     transform: rotateY(180deg);
 }
+
+.CARDFRENTE, .CARDATRAS {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
