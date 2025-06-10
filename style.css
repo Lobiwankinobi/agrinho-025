@@ -57,6 +57,10 @@ body {
   justify-content: center;
 }
 
+.titulo{
+    font-family: cursive;
+}
+
 .conteudo {
   display: flex;
   max-width: 1200px;
