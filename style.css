@@ -2,6 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
+    flex: content;
+    justify-content: space-between;
+   
 }
 
 .resto {
