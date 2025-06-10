@@ -2,7 +2,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start; /* Alinhamento inicial */
+    gap: 1rem;
     padding: 2rem;
     position: fixed;
     top: 0;
@@ -10,6 +11,10 @@
     background-color: white;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.CABEÇALHO .ultimo-botao {
+    margin-left: auto;
 }
 
 .APRESENTAÇÃODOAGRINHO {
