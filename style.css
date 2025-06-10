@@ -2,13 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
-    justify-content: flex-start; /* Alinhamento inicial */
+    justify-content: flex-start;
     gap: 1rem;
     padding: 2rem;
     position: fixed;
     top: 0;
-    margin: 0 auto;
     width: 100%;
+    max-width: 1200px;      /* Limite de largura */
+    margin: 0 auto;         /* Centraliza o cabeçalho */
     background-color: white;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
