@@ -2,30 +2,23 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
-    flex: content;
     justify-content: space-around;
+    padding: 2rem;
     position: fixed;
-    background-color: white;
     top: 0;
-    padding: 1rem;
     width: 100%;
-}
-
-.CABEÇALHO button a {
-    text-decoration: none;
-    color: black;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .APRESENTAÇÃODOAGRINHO {
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-top: 5rem; /* Espaço para o cabeçalho fixo */
+    margin-top: 120px; /* compensação para o cabeçalho fixo */
 }
 
 body {
     background-color: ghostwhite;
-    margin: 0; /* Remove espaço padrão */
+    margin: 0;
 }
