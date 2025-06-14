@@ -8,7 +8,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: ghostwhite;
-  padding-top: 80px; /* Espaço para o menu fixo */
+  padding-top: 100px; /* aumentei para acompanhar o menu maior */
 }
 
 .menu-fixo {
@@ -19,17 +19,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1.5rem 3rem; /* aumentei o padding */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 1000;
 }
 
 .botao {
-  margin: 0 0.5rem;
-  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  padding: 0.8rem 1.5rem;
   font-weight: bold;
+  font-size: 1.2rem; /* aumentei o tamanho da fonte dos botões */
   background-color: #eee;
-  border-radius: 5px;
+  border-radius: 8px;
   text-decoration: none;
   color: black;
   display: inline-block;
@@ -53,40 +54,42 @@ body {
 }
 
 .secao {
-  padding: 4rem 2rem;
+  padding: 6rem 3rem; /* aumentei o espaçamento interno */
   display: flex;
   justify-content: center;
 }
 
-.titulo{
-    font-family: cursive;
-    color: #2E8B57;
-    font-size: xx-large;
+.titulo {
+  font-family: cursive;
+  color: #2E8B57;
+  font-size: 3rem; /* aumentei bastante o tamanho do título principal */
+}
+
+h2 {
+  font-size: 2.5rem; /* aumentei o tamanho dos subtítulos */
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.4rem; /* aumentei o tamanho dos parágrafos */
+  line-height: 1.8; /* aumentei o espaçamento entre linhas para melhorar a leitura */
 }
 
 .conteudo {
   display: flex;
-  max-width: 1200px;
-  gap: 2rem;
+  max-width: 1400px; /* aumentei a largura máxima */
+  gap: 3rem;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .texto {
-  flex: 1 1 60%;
+  flex: 1 1 55%;
 }
 
 .imagem {
-  flex: 1 1 35%;
+  flex: 1 1 40%;
 }
 
 .imagem img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-}
-
-#campo-cidade {
-  background-color: antiquewhite;
-}
-
