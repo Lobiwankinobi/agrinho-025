@@ -8,7 +8,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: ghostwhite;
-  padding-top: 100px; /* aumentei para acompanhar o menu maior */
+  padding-top: 100px; 
 }
 
 .menu-fixo {
@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem; /* aumentei o padding */
+  padding: 1.5rem 3rem; 
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 1000;
 }
@@ -28,7 +28,7 @@ body {
   margin: 0 1rem;
   padding: 0.8rem 1.5rem;
   font-weight: bold;
-  font-size: 1.2rem; /* aumentei o tamanho da fonte dos botões */
+  font-size: 1.2rem; 
   background-color: #eee;
   border-radius: 8px;
   text-decoration: none;
@@ -54,7 +54,7 @@ body {
 }
 
 .secao {
-  padding: 6rem 3rem; /* aumentei o espaçamento interno */
+  padding: 6rem 3rem; 
   display: flex;
   justify-content: center;
 }
@@ -62,22 +62,21 @@ body {
 .titulo {
   font-family: cursive;
   color: #2E8B57;
-  font-size: 3rem; /* aumentei bastante o tamanho do título principal */
+  font-size: 3rem; 
 }
 
 h2 {
-  font-size: 2.5rem; /* aumentei o tamanho dos subtítulos */
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 1.4rem; /* aumentei o tamanho dos parágrafos */
-  line-height: 1.8; /* aumentei o espaçamento entre linhas para melhorar a leitura */
-}
+  font-size: 1.4rem;
+  line-height: 1.8; 
 
 .conteudo {
   display: flex;
-  max-width: 1400px; /* aumentei a largura máxima */
+  max-width: 1400px; 
   gap: 3rem;
   align-items: center;
   flex-wrap: wrap;
