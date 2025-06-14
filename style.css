@@ -93,3 +93,7 @@ p {
 .imagem img {
   width: 100%;
 }
+
+#campo-cidade {
+  background-color: antiquewhite;
+}
