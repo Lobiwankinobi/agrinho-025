@@ -117,18 +117,19 @@ p {
 
 .conteudo-bloco {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 0.8rem; 
 }
 
 .texto-bloco {
-  flex: 1;
+  flex: 1;              
+  word-wrap: break-word; 
 }
 
 .titulo-imagem img {
-  width: 50%; 
-  display: block;
+  width: 120px; 
+  height: auto;
+  flex-shrink: 0; 
 }
 
 .bloco-campo .conteudo-bloco {
@@ -138,4 +139,3 @@ p {
 .bloco-cidade .conteudo-bloco {
   flex-direction: row-reverse;
 }
-
