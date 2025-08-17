@@ -89,6 +89,9 @@ p {
 .texto {
   flex: 1 1 55%;
 }
+.texto h2 {
+  justify-content: center;
+} 
 
 .imagem {
   flex: 1 1 40%;
