@@ -97,8 +97,16 @@ p {
 
 .imagem-junta {
   display: grid;
-  grid-template-columns: 2;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem; 
 }
+
+.imagem-junta img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px;
+}
+
 
 #campo-cidade {
   background-color: antiquewhite;
