@@ -94,21 +94,40 @@ p {
 .imagem img {
   width: 100%;
 }
-
-.imagem-junta {
+/* GRID Campo e Cidade */
+.grid-campo-cidade {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0; 
-  width: 70%;
+  grid-template-columns: 1fr 1fr; /* 2 colunas */
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
 }
 
-.imagem-junta img {
-  width: 50%; 
-  height: auto;
-  margin: 0;
-  padding: 0;
-  display: block;
+/* Blocos estilo post-it */
+.bloco {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px rgba(0,0,0,0.2);
+  transform: rotate(-1deg); /* leve inclinação */
 }
-#campo-cidade {
-  background-color: antiquewhite;
+
+.bloco h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* Post-it cores */
+.bloco-verde {
+  background-color: #d4fcd4; /* verde claro */
+}
+
+.bloco-vermelho {
+  background-color: #ffd6d6; /* vermelho claro */
+}
+
+/* Imagem ao lado do título */
+.titulo-imagem img {
+  width: 50%; /* metade do tamanho original */
+  display: block;
+  margin: 0.5rem 0;
 }
