@@ -107,6 +107,9 @@ p {
   border-radius: 8px;
 }
 
+#cestinha {
+  width: 70%;
+}
 
 #campo-cidade {
   background-color: antiquewhite;
