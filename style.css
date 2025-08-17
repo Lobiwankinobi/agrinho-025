@@ -15,6 +15,10 @@ body {
   background-color: #fff6b3;
 }
 
+img {
+  width: 100%;
+}
+
 .menu-fixo {
   position: fixed;
   top: 0;
