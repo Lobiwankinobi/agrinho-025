@@ -67,6 +67,10 @@ img {
   justify-content: center;
 }
 
+.bloco-amarelo-claro {
+  background-color: #f8f2c5;
+}
+
 .titulo {
   font-family: cursive;
   color: #2E8B57;
