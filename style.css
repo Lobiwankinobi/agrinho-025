@@ -94,21 +94,19 @@ p {
 .imagem img {
   width: 100%;
 }
-/* GRID Campo e Cidade */
+
 .grid-campo-cidade {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2 colunas */
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   width: 100%;
   max-width: 1200px;
 }
 
-/* Blocos estilo post-it */
 .bloco {
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 4px 6px 10px rgba(0,0,0,0.2);
-  transform: rotate(-1deg); /* leve inclinação */
+  transform: rotate(-1deg);
 }
 
 .bloco h2 {
@@ -116,18 +114,17 @@ p {
   font-size: 2rem;
 }
 
-/* Post-it cores */
+
 .bloco-verde {
-  background-color: #d4fcd4; /* verde claro */
+  background-color: #d4fcd4; 
 }
 
 .bloco-vermelho {
-  background-color: #ffd6d6; /* vermelho claro */
+  background-color: #ffd6d6; 
 }
 
-/* Imagem ao lado do título */
 .titulo-imagem img {
-  width: 50%; /* metade do tamanho original */
+  width: 50%; 
   display: block;
   margin: 0.5rem 0;
 }
