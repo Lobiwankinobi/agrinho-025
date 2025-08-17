@@ -95,6 +95,11 @@ p {
   width: 100%;
 }
 
+.imagem-junta {
+  display: grid;
+  grid-template-columns: 2;
+}
+
 #campo-cidade {
   background-color: antiquewhite;
 }
