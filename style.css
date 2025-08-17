@@ -11,9 +11,10 @@ body {
   padding-top: 100px; 
 }
 
-img {
-  width: 100%;
+#apresentacao {
+  background-color: #fff6b3;
 }
+
 .menu-fixo {
   position: fixed;
   top: 0;
