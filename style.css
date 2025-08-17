@@ -115,27 +115,21 @@ p {
   background-color: #ffd6d6;
 }
 
-.conteudo-bloco {
+.cabecalho-bloco {
   display: flex;
-  align-items: flex-start;
-  gap: 0.8rem; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 1rem;
 }
 
-.texto-bloco {
-  flex: 1;              
-  word-wrap: break-word; 
+.cabecalho-bloco h2 {
+  margin: 0;
+  font-size: 2rem;
+  flex: 1;
 }
 
-.titulo-imagem img {
-  width: 120px; 
+.cabecalho-bloco img {
+  width: 100px;
   height: auto;
-  flex-shrink: 0; 
-}
-
-.bloco-campo .conteudo-bloco {
-  flex-direction: row;
-}
-
-.bloco-cidade .conteudo-bloco {
-  flex-direction: row-reverse;
 }
