@@ -108,22 +108,34 @@ p {
   border-radius: 10px;
 }
 
-.bloco h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
-
-
 .bloco-verde {
-  background-color: #d4fcd4; 
+  background-color: #d4fcd4;
+}
+.bloco-vermelho {
+  background-color: #ffd6d6;
 }
 
-.bloco-vermelho {
-  background-color: #ffd6d6; 
+.conteudo-bloco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.texto-bloco {
+  flex: 1;
 }
 
 .titulo-imagem img {
-  width: 20%; 
+  width: 50%; 
   display: block;
-  margin: 0.5rem 0;
 }
+
+.bloco-campo .conteudo-bloco {
+  flex-direction: row;
+}
+
+.bloco-cidade .conteudo-bloco {
+  flex-direction: row-reverse;
+}
+
