@@ -106,7 +106,6 @@ p {
 .bloco {
   padding: 2rem;
   border-radius: 10px;
-  transform: rotate(-1deg);
 }
 
 .bloco h2 {
