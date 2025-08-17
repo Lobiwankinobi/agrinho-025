@@ -91,10 +91,6 @@ p {
   flex: 1 1 40%;
 }
 
-.imagem img {
-  width: 100%;
-}
-
 .grid-campo-cidade {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -136,4 +132,35 @@ p {
 
 #imagem-maior {
   width: 80px;
+}
+
+.grid-sustentabilidade {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.bloco-sus {
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center; 
+  box-shadow: 4px 6px 10px rgba(0,0,0,0.2);
+}
+
+.bloco-rosa {
+  background-color: #ffd6f4; 
+}
+.bloco-amarelo {
+  background-color: #fff6b3; 
+}
+.bloco-roxo {
+  background-color: #e5d6ff; 
+}
+
+.bloco-sus img {
+  width: 120px; 
+  height: auto;
+  margin-bottom: 1rem;
 }
