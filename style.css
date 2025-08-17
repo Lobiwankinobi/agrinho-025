@@ -97,14 +97,17 @@ p {
 
 .imagem-junta {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
+  gap: 0; 
   width: 70%;
 }
 
 .imagem-junta img {
   width: 50%; 
   height: auto;
-  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 #campo-cidade {
   background-color: antiquewhite;
